@@ -1,2 +1,3 @@
-# PracticaParcialAnsible
-2do Examen parcial de electiva
+Descripción
+Este laboratorio implementa un entorno reproducible para practicar automatización con Ansible sobre contenedores Docker configurados como nodos SSH. Cada nodo (node1, node2) se construye desde una imagen base de Ubuntu 24.04, con configuración mínima para habilitar acceso remoto mediante claves SSH generadas dinámicamente en tiempo de ejecución. El control se realiza desde un contenedor externo que ejecuta Ansible, permitiendo pruebas de conectividad (ping) y ejecución de playbooks.
+El diseño modular permite escalar el número de nodos, mantener trazabilidad en cada paso y validar visualmente el estado de cada contenedor. Esta práctica está orientada a fortalecer conceptos de infraestructura como código, orquestación básica y blindaje de entornos de prueba.
